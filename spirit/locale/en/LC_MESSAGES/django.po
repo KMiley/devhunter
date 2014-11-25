@@ -7,595 +7,495 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-29 17:36-0300\n"
+"POT-Creation-Date: 2014-05-09 01:37-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: .\forms\admin.py:46
 msgid ""
-"The category you are updating can not have a parent since it has childrens"
-msgstr ""
+"The category you are updating can not has a parent since it has childrens"
+msgstr "La categoria que estas intentando actualizar no puede tener una categoria ya que tiene subcategorias"
 
-#: .\forms\admin.py:69
-msgid "site name"
-msgstr ""
-
-#: .\forms\admin.py:70
-msgid "site description"
-msgstr ""
-
-#: .\forms\admin.py:71
-msgid "footer snippet"
-msgstr ""
-
-#: .\forms\admin.py:73
-msgid "This gets rendered just before the footer in your template."
-msgstr ""
-
-#: .\forms\comment.py:29
+#: .\forms\comment.py:24
 msgid "Write comment..."
-msgstr ""
-
-#: .\forms\comment.py:80
-#, python-format
-msgid "Unsupported file format. Supported formats are %s."
-msgstr ""
+msgstr "Escribe un comentario..."
 
 #: .\forms\comment_flag.py:30
 msgid "This flag already exists"
-msgstr ""
+msgstr "Este reporte ya existe"
 
 #: .\forms\comment_like.py:28
 msgid "This like already exists"
-msgstr ""
+msgstr "Este me gusta ya existe"
 
 #: .\forms\search.py:20
-#, python-format
 msgid "Your search must contain at least %(length)s characters."
-msgstr ""
+msgstr "Tu busqueda debe contener al menos %(length)s caracteres."
 
 #: .\forms\search.py:42
 msgid "Filter by"
-msgstr ""
+msgstr "Filtrar por"
 
-#: .\forms\topic.py:26
+#: .\forms\topic.py:29
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
-#: .\forms\topic.py:27
+#: .\forms\topic.py:30
 msgid "Chose a category"
-msgstr ""
+msgstr "Elige una categoria"
 
-#: .\forms\topic.py:37
+#: .\forms\topic.py:40
 msgid "The chosen category is closed"
-msgstr ""
+msgstr "La categoria elegida esta cerrada"
 
 #: .\forms\topic_favorite.py:28
 msgid "This favorite already exists"
-msgstr ""
+msgstr "Este favorito ya existe"
 
 #: .\forms\topic_notification.py:33
 msgid "This notification already exists"
-msgstr ""
+msgstr "Esta notificación ya existe"
 
-#: .\forms\topic_poll.py:24
-msgid "This must be greater than zero"
-msgstr ""
-
-#: .\forms\topic_poll.py:68 .\forms\topic_poll.py:73
-msgid "Poll choices"
-msgstr ""
-
-#: .\forms\topic_poll.py:91
-#, python-format
-msgid "Too many selected choices. Limit is %s"
-msgstr ""
-
-#: .\forms\topic_poll.py:100
-msgid "This poll is closed"
-msgstr ""
-
-#: .\forms\topic_private.py:41
+#: .\forms\topic_private.py:43
 msgid "user1, user2, ..."
-msgstr ""
+msgstr "ususario1, ususario2, ..."
 
-#: .\forms\topic_private.py:68 .\models\user.py:47
+#: .\forms\topic_private.py:70 .\models\user.py:44
 msgid "username"
-msgstr ""
+msgstr "nombre de usuario"
 
-#: .\forms\topic_private.py:69
+#: .\forms\topic_private.py:71
 msgid "Invite user"
-msgstr ""
+msgstr "Invitar usuario"
 
-#: .\forms\topic_private.py:87 .\forms\topic_private.py:118
-#, python-format
+#: .\forms\topic_private.py:89 .\forms\topic_private.py:120
 msgid "%(username)s is already a participant"
-msgstr ""
+msgstr "%(username)s ya es un participante"
 
-#: .\forms\user.py:16
+#: .\forms\user.py:15
 msgid "Leave blank"
-msgstr ""
+msgstr "Dejar en blanco"
 
-#: .\forms\user.py:27
+#: .\forms\user.py:26
 msgid "Do not fill this field."
-msgstr ""
+msgstr "No rellenes este campo."
 
-#: .\forms\user.py:40
+#: .\forms\user.py:39
 msgid "The username is taken."
-msgstr ""
+msgstr "El nombre de usuario ya esta en uso."
 
 #: .\forms\user.py:56
-#, python-format
-msgid "Current time is: %(date)s %(time)s"
-msgstr ""
-
-#: .\forms\user.py:64
 msgid "Username or Email"
-msgstr ""
+msgstr "Usuario o Email"
 
-#: .\forms\user.py:69 .\forms\user.py:99
-#: .\templates\spirit\user\profile_update.html:12
+#: .\forms\user.py:61 .\templates\spirit\user\profile_update.html:12
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
-#: .\forms\user.py:70 .\templates\spirit\user\profile_update.html:15
+#: .\forms\user.py:62 .\templates\spirit\user\profile_update.html:15
 msgid "Password"
-msgstr ""
+msgstr "Contraseña"
 
-#: .\forms\user.py:80
+#: .\forms\user.py:72
 msgid "Your password was entered incorrectly. Please enter it again."
-msgstr ""
+msgstr "La contraseña es erronea. Por favor ingresala de nuevo."
 
-#: .\forms\user.py:89
+#: .\forms\user.py:81
 msgid "Try a different email."
-msgstr ""
+msgstr "Intenta con un email diferente."
 
-#: .\forms\user.py:107
-msgid "The provided email does not exists."
-msgstr ""
-
-#: .\forms\user.py:110
-msgid "This account was activated."
-msgstr ""
-
-#: .\models\category.py:13
+#: .\models\category.py:12
 msgid "category parent"
-msgstr ""
+msgstr "categoria padre"
 
-#: .\models\category.py:15 .\models\topic.py:22
+#: .\models\category.py:14 .\models\topic.py:21
 msgid "title"
-msgstr ""
+msgstr "titulo"
 
-#: .\models\category.py:17
+#: .\models\category.py:16
 msgid "description"
-msgstr ""
+msgstr "descripción"
 
-#: .\models\category.py:18 .\models\topic.py:27
+#: .\models\category.py:17 .\models\topic.py:26
 msgid "closed"
-msgstr ""
+msgstr "cerrado"
+
+#: .\models\category.py:18
+msgid "removed"
+msgstr "eliminado"
 
 #: .\models\category.py:19
-msgid "removed"
-msgstr ""
 
-#: .\models\category.py:20
 msgid "private"
-msgstr ""
+msgstr "tema privado"
 
-#: .\models\category.py:29 .\models\topic.py:20
+#: .\models\category.py:28 .\models\topic.py:19
 msgid "category"
-msgstr ""
+msgstr "categoria"
 
-#: .\models\category.py:30
+#: .\models\category.py:29
 msgid "categories"
-msgstr ""
+msgstr "categorias"
 
-#: .\models\comment.py:21 .\models\comment.py:35 .\models\comment.py:51
+#: .\models\comment.py:22 .\models\comment.py:36 .\models\comment.py:52
 msgid "comment"
-msgstr ""
-
-#: .\models\comment.py:22
-msgid "topic moved"
-msgstr ""
+msgstr "commentario"
 
 #: .\models\comment.py:23
-msgid "topic closed"
-msgstr ""
+msgid "topic moved"
+msgstr "tema movido"
 
 #: .\models\comment.py:24
-msgid "topic unclosed"
-msgstr ""
+msgid "topic closed"
+msgstr "tema cerrado"
 
 #: .\models\comment.py:25
-msgid "topic pinned"
-msgstr ""
+msgid "topic unclosed"
+msgstr "tema abierto"
 
 #: .\models\comment.py:26
+msgid "topic pinned"
+msgstr "tema anclado"
+
+#: .\models\comment.py:27
 msgid "topic unpinned"
-msgstr ""
+msgstr "tema no anclado"
 
-#: .\models\comment.py:32 .\models\comment_bookmark.py:15 .\models\topic.py:19
+#: .\models\comment.py:33 .\models\comment_bookmark.py:20 .\models\topic.py:18
 #: .\models\topic_notification.py:28 .\models\topic_unread.py:18
-#: .\models\user.py:93
+#: .\models\user.py:90
 msgid "user"
-msgstr ""
+msgstr "usuario"
 
-#: .\models\comment.py:36 .\models\comment_history.py:16
+#: .\models\comment.py:37 .\models\comment_history.py:16
 msgid "comment html"
-msgstr ""
+msgstr "comentario html"
 
-#: .\models\comment.py:37
+#: .\models\comment.py:38
 msgid "action"
-msgstr ""
-
-#: .\models\comment.py:43
-msgid "modified count"
-msgstr ""
+msgstr "acción"
 
 #: .\models\comment.py:44
+msgid "modified count"
+msgstr "modificaciones contador"
+
+#: .\models\comment.py:45
 msgid "likes count"
-msgstr ""
+msgstr "me gusta contador"
 
-#: .\models\comment.py:52 .\templates\spirit\user\profile_comments.html:5
+#: .\models\comment.py:53 .\templates\spirit\user\profile_comments.html:5
 msgid "comments"
-msgstr ""
+msgstr "comentario"
 
-#: .\models\comment_bookmark.py:23
+#: .\models\comment_bookmark.py:28
 msgid "comment bookmark"
-msgstr ""
+msgstr "marcador de comentario"
 
-#: .\models\comment_bookmark.py:24
+#: .\models\comment_bookmark.py:29
 msgid "comments bookmarks"
-msgstr ""
+msgstr "marcadores de comentarios"
 
 #: .\models\comment_flag.py:10
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: .\models\comment_flag.py:11
 msgid "Other"
-msgstr ""
+msgstr "Otro"
 
 #: .\models\comment_flag.py:26
 msgid "comment flag"
-msgstr ""
+msgstr "reporte de comentario"
 
 #: .\models\comment_flag.py:27
 msgid "comments flags"
-msgstr ""
+msgstr "reportes de comentarios"
 
 #: .\models\comment_flag.py:42
 msgid "reason"
-msgstr ""
+msgstr "razon"
 
 #: .\models\comment_flag.py:43
 msgid "body"
-msgstr ""
+msgstr "Cuerpo"
 
 #: .\models\comment_flag.py:49
 msgid "flag"
-msgstr ""
+msgstr "reporte"
 
 #: .\models\comment_flag.py:50
 msgid "flags"
-msgstr ""
+msgstr "reportes"
 
 #: .\models\comment_history.py:14
 msgid "original comment"
-msgstr ""
+msgstr "comentario original"
 
 #: .\models\comment_history.py:22
 msgid "comment history"
-msgstr ""
+msgstr "historial de comentario"
 
 #: .\models\comment_history.py:23
 msgid "comments history"
-msgstr ""
+msgstr "historial de comentarios"
 
-#: .\models\comment_like.py:24 .\templates\spirit\comment\_render_list.html:58
-#: .\templates\spirit\comment\_render_list.html:133
+#: .\models\comment_like.py:24 .\templates\spirit\comment\_render_list.html:53
+#: .\templates\spirit\comment\_render_list.html:109
 msgid "like"
-msgstr ""
+msgstr "me gusta"
 
 #: .\models\comment_like.py:25 .\templates\spirit\user\profile_likes.html:5
 msgid "likes"
-msgstr ""
+msgstr "me gusta"
+
+#: .\models\topic.py:23
+msgid "date"
+msgstr "fecha"
 
 #: .\models\topic.py:24
-msgid "date"
-msgstr ""
+msgid "last active"
+msgstr "ultima vez activo"
 
 #: .\models\topic.py:25
-msgid "last active"
-msgstr ""
-
-#: .\models\topic.py:26
 msgid "pinned"
-msgstr ""
+msgstr "anclado"
 
-#: .\models\topic.py:30
+#: .\models\topic.py:29
 msgid "views count"
-msgstr ""
+msgstr "vistos contador"
 
-#: .\models\topic.py:31 .\models\user.py:29
+#: .\models\topic.py:30 .\models\user.py:26
 msgid "comment count"
-msgstr ""
+msgstr "comentario contador"
 
-#: .\models\topic.py:38 .\models\topic_poll.py:11
+#: .\models\topic.py:37
 msgid "topic"
-msgstr ""
+msgstr "tema"
 
-#: .\models\topic.py:39 .\templates\spirit\user\profile_topics.html:5
+#: .\models\topic.py:38 .\templates\spirit\user\profile_topics.html:5
 msgid "topics"
-msgstr ""
+msgstr "temas"
 
 #: .\models\topic_favorite.py:19
 msgid "favorite"
-msgstr ""
+msgstr "favorito"
 
 #: .\models\topic_favorite.py:20
 msgid "favorites"
-msgstr ""
+msgstr "favoritos"
 
 #: .\models\topic_notification.py:20
 msgid "Undefined"
-msgstr ""
+msgstr "Sin definir"
 
 #: .\models\topic_notification.py:21
 msgid "Mention"
-msgstr ""
+msgstr "Mención"
 
 #: .\models\topic_notification.py:22
 msgid "Comment"
-msgstr ""
-
-#: .\models\topic_notification.py:43
-msgid "topic notification"
-msgstr ""
+msgstr "Comentario"
 
 #: .\models\topic_notification.py:44
+msgid "topic notification"
+msgstr "notificación de tema"
+
+#: .\models\topic_notification.py:45
 msgid "topics notification"
-msgstr ""
-
-#: .\models\topic_poll.py:14
-msgid "choice limit"
-msgstr ""
-
-#: .\models\topic_poll.py:19
-msgid "topic poll"
-msgstr ""
-
-#: .\models\topic_poll.py:20
-msgid "topics polls"
-msgstr ""
-
-#: .\models\topic_poll.py:31
-msgid "poll"
-msgstr ""
-
-#: .\models\topic_poll.py:33
-msgid "choice description"
-msgstr ""
-
-#: .\models\topic_poll.py:34
-msgid "vote count"
-msgstr ""
-
-#: .\models\topic_poll.py:38 .\models\topic_poll.py:47
-msgid "poll choice"
-msgstr ""
-
-#: .\models\topic_poll.py:39
-msgid "poll choices"
-msgstr ""
-
-#: .\models\topic_poll.py:48
-msgid "voter"
-msgstr ""
-
-#: .\models\topic_poll.py:55
-msgid "poll vote"
-msgstr ""
-
-#: .\models\topic_poll.py:56
-msgid "poll votes"
-msgstr ""
+msgstr "notificaciones de temas"
 
 #: .\models\topic_private.py:24
 msgid "private topic"
-msgstr ""
+msgstr "tema privado"
 
 #: .\models\topic_private.py:25
 msgid "private topics"
-msgstr ""
-
-#: .\models\topic_unread.py:30
-msgid "topic unread"
-msgstr ""
+msgstr "temas privados"
 
 #: .\models\topic_unread.py:31
+msgid "topic unread"
+msgstr "tema sin leer"
+
+#: .\models\topic_unread.py:32
 msgid "topics unread"
-msgstr ""
+msgstr "temas sin leer"
+
+#: .\models\user.py:18
+msgid "location"
+msgstr "ubicación"
+
+#: .\models\user.py:19
+msgid "last seen"
+msgstr "visto por ultima vez"
 
 #: .\models\user.py:20
-msgid "location"
-msgstr ""
+msgid "last ip"
+msgstr "ultima ip"
 
 #: .\models\user.py:21
-msgid "last seen"
-msgstr ""
+msgid "time zone"
+msgstr "zona horaria"
 
 #: .\models\user.py:22
-msgid "last ip"
-msgstr ""
+msgid "administrator status"
+msgstr "estado administrador"
 
 #: .\models\user.py:23
-msgid "time zone"
-msgstr ""
-
-#: .\models\user.py:24
-msgid "administrator status"
-msgstr ""
+msgid "moderator status"
+msgstr "estado moderador"
 
 #: .\models\user.py:25
-msgid "moderator status"
-msgstr ""
-
-#: .\models\user.py:28
 msgid "topic count"
-msgstr ""
+msgstr "contador de temas"
 
-#: .\models\user.py:48
+#: .\models\user.py:45
 msgid ""
 "Required. 30 characters or fewer. Letters, numbers and @/./+/-/_ characters"
-msgstr ""
+msgstr "Requerido. 30 caracteres o menos. Letras, numeros y @/./+/-/_"
+
+#: .\models\user.py:48
+msgid "Enter a valid username."
+msgstr "Ingresa un nombre de usuario valido."
 
 #: .\models\user.py:51
-msgid "Enter a valid username."
-msgstr ""
+msgid "first name"
+msgstr "primer nombre"
+
+#: .\models\user.py:52
+msgid "last name"
+msgstr "apellido"
+
+#: .\models\user.py:53
+msgid "email"
+msgstr "email"
 
 #: .\models\user.py:54
-msgid "first name"
-msgstr ""
+msgid "staff status"
+msgstr "estado staff"
 
 #: .\models\user.py:55
-msgid "last name"
-msgstr ""
-
-#: .\models\user.py:56
-msgid "email"
-msgstr ""
+msgid "Designates whether the user can log into this admin site."
+msgstr "Designa si el ususario puede ingresar en la administración"
 
 #: .\models\user.py:57
-msgid "staff status"
-msgstr ""
+msgid "active"
+msgstr "activo"
 
 #: .\models\user.py:58
-msgid "Designates whether the user can log into this admin site."
-msgstr ""
-
-#: .\models\user.py:60
-msgid "active"
-msgstr ""
-
-#: .\models\user.py:61
 msgid ""
 "Designates whether this user should be treated as active. Unselect this "
 "instead of deleting accounts."
 msgstr ""
+"Designa si el usuario esta activo. Deselecciona estoen lugar de eliminar la "
+"cuenta."
 
-#: .\models\user.py:63
+#: .\models\user.py:60
 msgid "date joined"
-msgstr ""
+msgstr "fecha de registro"
 
-#: .\models\user.py:94
+#: .\models\user.py:91
 msgid "users"
-msgstr ""
+msgstr "usuarios"
 
 #: .\templates\403.html:10
 msgid "You do not have sufficient permissions to access this page"
-msgstr ""
+msgstr "No tienes suficientes privilegios para acceder a esta sección"
 
 #: .\templates\404.html:10
 msgid "what you are looking for is gone..."
-msgstr ""
+msgstr "lo que busca ya no esta"
 
-#: .\templates\spirit\_base.html:56
+#: .\templates\spirit\_base.html:43
 msgid "{user} has mention you on {topic}"
-msgstr ""
+msgstr "{user} te ha mencionado en {topic}"
 
-#: .\templates\spirit\_base.html:57
+#: .\templates\spirit\_base.html:44
 msgid "{user} has commented on {topic}"
-msgstr ""
+msgstr "{user} ha comentado en {topic}"
 
-#: .\templates\spirit\_base.html:58
+#: .\templates\spirit\_base.html:45
 msgid "Show all"
-msgstr ""
+msgstr "Mostrar todo"
 
-#: .\templates\spirit\_base.html:59
+#: .\templates\spirit\_base.html:46
 msgid "No new notifications, yet"
-msgstr ""
-
-#: .\templates\spirit\_base.html:60
-#: .\templates\spirit\topic_notification\_render_list.html:17
-msgid "unread"
-msgstr ""
+msgstr "Aun no hay notificaciones nuevas"
 
 #: .\templates\spirit\_header.html:20 .\templates\spirit\user\menu.html:14
 msgid "Profile"
-msgstr ""
+msgstr "Perfil"
 
 #: .\templates\spirit\_header.html:21
 #: .\templates\spirit\admin\_side_menu.html:12
 #: .\templates\spirit\admin\index\dashboard.html:31
-#: .\templates\spirit\user\_profile.html:47
+#: .\templates\spirit\user\_profile.html:34
 #: .\templates\spirit\user\menu.html:15
 msgid "Topics"
-msgstr ""
+msgstr "Temas"
 
 #: .\templates\spirit\_header.html:22 .\templates\spirit\user\menu.html:16
 msgid "Unread topics"
-msgstr ""
+msgstr "Respuestas sin leer"
 
 #: .\templates\spirit\_header.html:23
 #: .\templates\spirit\topic_private\private_detail.html:13
 #: .\templates\spirit\topic_private\private_list.html:5
 #: .\templates\spirit\user\menu.html:17
 msgid "Private topics"
-msgstr ""
+msgstr "Temas privados"
 
 #: .\templates\spirit\_header.html:26
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:10
 #: .\templates\spirit\user\menu.html:20
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
-#: .\templates\spirit\_header.html:29 .\templates\spirit\user\logout.html:5
-#: .\templates\spirit\user\logout.html:15 .\templates\spirit\user\menu.html:23
+#: .\templates\spirit\_header.html:29 .\templates\spirit\user\menu.html:23
 msgid "Log out"
-msgstr ""
+msgstr "Cerrar sesión"
 
 #: .\templates\spirit\_header.html:42
 msgid "Log in"
-msgstr ""
+msgstr "Ingresar"
 
 #: .\templates\spirit\admin\_side_menu.html:3
 msgid "Show menu"
-msgstr ""
+msgstr "Mostrar menu"
 
 #: .\templates\spirit\admin\_side_menu.html:9
 #: .\templates\spirit\admin\index\dashboard.html:5
 #: .\templates\spirit\admin\index\dashboard.html:11
 msgid "Dashboard"
-msgstr ""
+msgstr "Panel"
 
 #: .\templates\spirit\admin\_side_menu.html:10
 msgid "Basic settings"
-msgstr ""
+msgstr "Configuración basica"
 
 #: .\templates\spirit\admin\_side_menu.html:11
 #: .\templates\spirit\admin\index\dashboard.html:47
 msgid "Categories"
-msgstr ""
+msgstr "categorias"
 
 #: .\templates\spirit\admin\_side_menu.html:13
 msgid "Users"
-msgstr ""
+msgstr "usuarios"
 
 #: .\templates\spirit\admin\_side_menu.html:14
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:11
 #: .\templates\spirit\admin\index\dashboard.html:43
 msgid "Flags"
-msgstr ""
+msgstr "Reportes"
 
 #: .\templates\spirit\admin\category\category_create.html:5
 #: .\templates\spirit\admin\category\category_create.html:9
 msgid "Add Category"
-msgstr ""
+msgstr "Agregar categoria"
 
 #: .\templates\spirit\admin\category\category_create.html:15
 #: .\templates\spirit\admin\category\category_update.html:15
@@ -603,860 +503,787 @@ msgstr ""
 #: .\templates\spirit\admin\config\config_basic.html:17
 #: .\templates\spirit\admin\user\user_edit.html:15
 #: .\templates\spirit\user\password_reset_confirm.html:16
-#: .\templates\spirit\user\profile_update.html:27
+#: .\templates\spirit\user\profile_update.html:26
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: .\templates\spirit\admin\category\category_list.html:5
 #: .\templates\spirit\admin\category\category_list.html:11
 msgid "Category list"
-msgstr ""
+msgstr "Lista de categorias"
 
 #: .\templates\spirit\admin\category\category_list.html:13
 msgid "Create Category"
-msgstr ""
+msgstr "Crear categoria"
 
 #: .\templates\spirit\admin\category\category_list.html:29
 #: .\templates\spirit\admin\category\category_list.html:44
 #: .\templates\spirit\admin\user\_user_list.html:11
-#: .\templates\spirit\comment\_render_list.html:65
+#: .\templates\spirit\comment\_render_list.html:60
 #: .\templates\spirit\topic\topic_detail.html:30
 #: .\templates\spirit\topic\topic_detail.html:32
-#: .\templates\spirit\topic_poll\_form.html:11
 msgid "edit"
-msgstr ""
+msgstr "editar"
 
 #: .\templates\spirit\admin\category\category_update.html:5
 #: .\templates\spirit\admin\category\category_update.html:9
 msgid "Update Category"
-msgstr ""
+msgstr "Actualizar Categoria"
 
 #: .\templates\spirit\admin\comment_flag\_flag_list.html:11
 msgid "moderate"
-msgstr ""
+msgstr "moderar"
 
 #: .\templates\spirit\admin\comment_flag\_tabs.html:4
-#: .\templates\spirit\topic_poll\poll_close.html:20
 msgid "Open"
-msgstr ""
+msgstr "Abierto"
 
 #: .\templates\spirit\admin\comment_flag\_tabs.html:5
 #: .\templates\spirit\admin\topic\_tabs.html:5
 msgid "Closed"
-msgstr ""
+msgstr "cerrado"
 
 #: .\templates\spirit\admin\comment_flag\flag_closed.html:5
 #: .\templates\spirit\admin\comment_flag\flag_closed.html:11
 msgid "Closed flags"
-msgstr ""
+msgstr "Reportes cerrados"
 
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:5
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:14
 msgid "Flag"
-msgstr ""
+msgstr "reporte"
 
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:18
 msgid "Moderated by"
-msgstr ""
+msgstr "Moderado por"
 
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:30
 msgid "Comment flagged"
-msgstr ""
+msgstr "Comentario reportado"
 
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:54
-#: .\templates\spirit\comment\_render_list.html:45
+#: .\templates\spirit\comment\_render_list.html:44
 msgid "delete"
-msgstr ""
+msgstr "eliminar"
 
 #: .\templates\spirit\admin\comment_flag\flag_detail.html:61
 msgid "Reporters"
-msgstr ""
+msgstr "Reportadores"
 
 #: .\templates\spirit\admin\comment_flag\flag_open.html:5
 #: .\templates\spirit\admin\comment_flag\flag_open.html:11
 msgid "Open flags"
-msgstr ""
+msgstr "Rportes abiertos"
 
 #: .\templates\spirit\admin\config\config_basic.html:5
 #: .\templates\spirit\admin\config\config_basic.html:11
 msgid "Basic Settings"
-msgstr ""
+msgstr "Configuraciones basicas"
 
 #: .\templates\spirit\admin\index\dashboard.html:14
 msgid "Software"
-msgstr ""
+msgstr "Software"
 
 #: .\templates\spirit\admin\index\dashboard.html:17
 msgid "Installed"
-msgstr ""
+msgstr "Instalado"
 
 #: .\templates\spirit\admin\index\dashboard.html:18
 msgid "Latest"
-msgstr ""
+msgstr "Ultima"
 
 #: .\templates\spirit\admin\index\dashboard.html:22
 msgid "Statistics"
-msgstr ""
+msgstr "Estadisticas"
 
 #: .\templates\spirit\admin\index\dashboard.html:27
 msgid "Members"
-msgstr ""
+msgstr "Miembros"
 
 #: .\templates\spirit\admin\index\dashboard.html:35
-#: .\templates\spirit\user\_profile.html:46
+#: .\templates\spirit\user\_profile.html:33
 msgid "Comments"
-msgstr ""
+msgstr "Comentarios"
 
 #: .\templates\spirit\admin\index\dashboard.html:39
-#: .\templates\spirit\user\_profile.html:48
+#: .\templates\spirit\user\_profile.html:35
 msgid "Likes"
-msgstr ""
+msgstr "Me gusta"
 
 #: .\templates\spirit\admin\topic\_tabs.html:4
 msgid "Deleted"
-msgstr ""
+msgstr "Eliminado"
 
 #: .\templates\spirit\admin\topic\_tabs.html:6
 msgid "Pinned"
-msgstr ""
+msgstr "Anclado"
 
 #: .\templates\spirit\admin\topic\topic_closed.html:5
 #: .\templates\spirit\admin\topic\topic_closed.html:11
 msgid "Closed topics"
-msgstr ""
+msgstr "Temas cerrados"
 
 #: .\templates\spirit\admin\topic\topic_deleted.html:5
 msgid "Deleted Topics"
-msgstr ""
+msgstr "Temas Eliminados"
 
 #: .\templates\spirit\admin\topic\topic_deleted.html:11
 msgid "Deleted topics"
-msgstr ""
+msgstr "Temas eliminados"
 
 #: .\templates\spirit\admin\topic\topic_pinned.html:5
 #: .\templates\spirit\admin\topic\topic_pinned.html:11
 msgid "Pinned topics"
-msgstr ""
+msgstr "Temas anclados"
 
 #: .\templates\spirit\admin\user\_tabs.html:4
 #: .\templates\spirit\comment\_editor.html:7
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: .\templates\spirit\admin\user\_tabs.html:5
 #: .\templates\spirit\admin\user\user_admins.html:5
 #: .\templates\spirit\admin\user\user_admins.html:11
 msgid "Admins"
-msgstr ""
+msgstr "Admins"
 
 #: .\templates\spirit\admin\user\_tabs.html:6
 #: .\templates\spirit\admin\user\user_mods.html:5
 #: .\templates\spirit\admin\user\user_mods.html:11
 msgid "Mods"
-msgstr ""
+msgstr "Mods"
 
 #: .\templates\spirit\admin\user\_tabs.html:7
 msgid "Unactive"
-msgstr ""
+msgstr "Inactivo"
 
 #: .\templates\spirit\admin\user\user_edit.html:5
 #: .\templates\spirit\admin\user\user_edit.html:9
-#: .\templates\spirit\user\_profile.html:41
 msgid "Edit user"
-msgstr ""
+msgstr "Editar usuario"
 
 #: .\templates\spirit\admin\user\user_list.html:5
 #: .\templates\spirit\admin\user\user_list.html:11
 msgid "User list"
-msgstr ""
+msgstr "Lista de usuarios"
 
 #: .\templates\spirit\admin\user\user_unactive.html:5
 #: .\templates\spirit\admin\user\user_unactive.html:11
 msgid "Unactive Users"
-msgstr ""
+msgstr "Usuarios Inactivos"
 
 #: .\templates\spirit\comment\_editor.html:5
 msgid "Bold"
-msgstr ""
+msgstr "Negrita"
 
 #: .\templates\spirit\comment\_editor.html:6
 msgid "Italic"
-msgstr ""
+msgstr "Italica"
 
 #: .\templates\spirit\comment\_editor.html:8
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: .\templates\spirit\comment\_editor.html:9
 msgid "Image"
-msgstr ""
+msgstr "Imagen"
 
 #: .\templates\spirit\comment\_editor.html:10
 msgid "Preview"
-msgstr ""
+msgstr "Vista previa"
+
+#: .\templates\spirit\comment\_editor.html:29
+msgid "bolded text"
+msgstr "texto en negrita"
+
+#: .\templates\spirit\comment\_editor.html:30
+msgid "italicised text"
+msgstr "texto en italica"
 
 #: .\templates\spirit\comment\_editor.html:31
-msgid "uploading {image_name}"
-msgstr ""
+msgid "list item"
+msgstr "item de lista"
+
+#: .\templates\spirit\comment\_editor.html:32
+msgid "link text"
+msgstr "texto del enlace"
+
+#: .\templates\spirit\comment\_editor.html:33
+msgid "link url"
+msgstr "enlace url"
 
 #: .\templates\spirit\comment\_editor.html:34
-msgid "bolded text"
-msgstr ""
+msgid "image text"
+msgstr "texto de imagen"
 
 #: .\templates\spirit\comment\_editor.html:35
-msgid "italicised text"
-msgstr ""
-
-#: .\templates\spirit\comment\_editor.html:36
-msgid "list item"
-msgstr ""
-
-#: .\templates\spirit\comment\_editor.html:37
-msgid "link text"
-msgstr ""
-
-#: .\templates\spirit\comment\_editor.html:38
-msgid "link url"
-msgstr ""
-
-#: .\templates\spirit\comment\_editor.html:39
-msgid "image text"
-msgstr ""
-
-#: .\templates\spirit\comment\_editor.html:40
 msgid "image url"
-msgstr ""
+msgstr "url de imagen"
 
 #: .\templates\spirit\comment\_form.html:17
-#: .\templates\spirit\comment\comment_publish.html:18
-#: .\templates\spirit\comment\comment_update.html:18
-#: .\templates\spirit\topic\topic_publish.html:44
-#: .\templates\spirit\topic_poll\poll_update.html:20
-#: .\templates\spirit\topic_private\private_publish.html:23
+#: .\templates\spirit\comment\comment_publish.html:17
+#: .\templates\spirit\comment\comment_update.html:15
+#: .\templates\spirit\topic\topic_publish.html:30
+#: .\templates\spirit\topic_private\private_publish.html:19
 msgid "Publish"
-msgstr ""
+msgstr "Publicar"
 
-#: .\templates\spirit\comment\_render_list.html:48
+#: .\templates\spirit\comment\_render_list.html:47
 msgid "report"
-msgstr ""
+msgstr "reportar"
 
-#: .\templates\spirit\comment\_render_list.html:51
-msgid "share"
-msgstr ""
-
-#: .\templates\spirit\comment\_render_list.html:55
-#: .\templates\spirit\comment\_render_list.html:134
+#: .\templates\spirit\comment\_render_list.html:50
+#: .\templates\spirit\comment\_render_list.html:110
 msgid "remove like"
-msgstr ""
+msgstr "eliminar \"me gusta\""
 
-#: .\templates\spirit\comment\_render_list.html:69
+#: .\templates\spirit\comment\_render_list.html:64
 msgid "quote"
-msgstr ""
+msgstr "citar"
 
-#: .\templates\spirit\comment\_render_list.html:70
+#: .\templates\spirit\comment\_render_list.html:65
 msgid "reply"
-msgstr ""
+msgstr "responder"
 
-#: .\templates\spirit\comment\_render_list.html:77
-#: .\templates\spirit\topic_poll\_form.html:16
-msgid "close"
-msgstr ""
-
-#: .\templates\spirit\comment\_render_list.html:106
+#: .\templates\spirit\comment\_render_list.html:83
 msgid "This comment was deleted"
-msgstr ""
+msgstr "Este comentario ha sido eliminado"
 
-#: .\templates\spirit\comment\_render_list.html:113
+#: .\templates\spirit\comment\_render_list.html:90
 msgid "undelete"
-msgstr ""
+msgstr "restaurar"
 
 #: .\templates\spirit\comment\comment_moderate.html:5
 #: .\templates\spirit\comment\comment_moderate.html:9
 msgid "Moderate comment"
-msgstr ""
+msgstr "Moderar comentario"
 
 #: .\templates\spirit\comment\comment_moderate.html:14
 #: .\templates\spirit\topic\topic_moderate.html:14
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 #: .\templates\spirit\comment\comment_publish.html:5
 msgid "Publish comment"
-msgstr ""
+msgstr "Publicar comentario"
 
 #: .\templates\spirit\comment\comment_publish.html:9
 msgid "Publishing comment on"
-msgstr ""
+msgstr "Publicando comentario en"
 
 #: .\templates\spirit\comment\comment_update.html:5
 #: .\templates\spirit\comment\comment_update.html:9
 msgid "Edit comment"
-msgstr ""
+msgstr "Editar comentario"
 
 #: .\templates\spirit\comment_flag\flag_create.html:5
 #: .\templates\spirit\comment_flag\flag_create.html:14
 msgid "Report"
-msgstr ""
+msgstr "Reportar"
 
 #: .\templates\spirit\comment_flag\flag_create.html:9
-#, python-format
 msgid "Reporting %(username)s's comment"
-msgstr ""
+msgstr "Reportando comentario de %(username)s"
 
 #: .\templates\spirit\comment_history\detail.html:5
 #: .\templates\spirit\comment_history\detail.html:11
 msgid "Comment history"
-msgstr ""
+msgstr "Historial de comentario"
 
 #: .\templates\spirit\comment_like\like_create.html:5
 #: .\templates\spirit\comment_like\like_create.html:14
 msgid "Like"
-msgstr ""
+msgstr "Me gusta"
 
 #: .\templates\spirit\comment_like\like_create.html:9
-#, python-format
 msgid "Like %(username)s's comment"
-msgstr ""
+msgstr "Gustar comentario de %(username)s"
 
 #: .\templates\spirit\comment_like\like_delete.html:5
 #: .\templates\spirit\comment_like\like_delete.html:13
 msgid "Remove like"
-msgstr ""
+msgstr "Eliminar \"me gusta\""
 
 #: .\templates\spirit\comment_like\like_delete.html:9
-#, python-format
 msgid "Remove %(username)s's comment like"
-msgstr ""
+msgstr "Eliminar \"me gusta\" para %(username)s"
 
 #: .\templates\spirit\paginator\_paginator.html:4
-#, python-format
 msgid "Page %(number)s of %(num_pages)s"
-msgstr ""
+msgstr "Pagina %(number)s de %(num_pages)s"
 
 #: .\templates\spirit\paginator\_paginator.html:8
 msgid "Last"
-msgstr ""
+msgstr "Ultima"
 
 #: .\templates\spirit\paginator\_paginator.html:10
 msgid "First"
-msgstr ""
+msgstr "Primera"
 
 #: .\templates\spirit\paginator\_yt_paginator.html:5
 msgid "Page 1 of 1"
-msgstr ""
+msgstr "Pagina 1 de 1"
 
 #: .\templates\spirit\search\_form.html:6
 #: .\templates\spirit\search\search.html:5
 #: .\templates\spirit\search\search.html:10
 #: .\templates\spirit\search\search.html:15
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: .\templates\spirit\search\search.html:19
 msgid "Results"
-msgstr ""
+msgstr "Resultados"
 
 #: .\templates\spirit\search\search.html:28
 msgid "There are no search results."
-msgstr ""
+msgstr "No hay resultados."
 
 #: .\templates\spirit\topic\_render_list.html:45
-#: .\templates\spirit\topic_private\private_created_list.html:20
 msgid "There are no topics here, yet"
-msgstr ""
+msgstr "Aun no hay temas aqui"
 
 #: .\templates\spirit\topic\_top_bar.html:8
 #: .\templates\spirit\topic\_top_bar.html:19
 msgid "All Categories"
-msgstr ""
+msgstr "Todas las Categorias"
 
 #: .\templates\spirit\topic\_top_bar.html:17
 msgid "All Subcategories"
-msgstr ""
+msgstr "Todas las Subcategorias"
 
 #: .\templates\spirit\topic\_top_bar.html:27
 #: .\templates\spirit\topic\_top_bar.html:29
 msgid "Create Topic"
-msgstr ""
+msgstr "Crear Tema"
 
 #: .\templates\spirit\topic\topic_detail.html:10
 msgid "Main"
-msgstr ""
+msgstr "Principal"
 
 #: .\templates\spirit\topic\topic_detail.html:42
 msgid "Select comments to move"
-msgstr ""
+msgstr "Seleccionar comentarios para mover"
 
 #: .\templates\spirit\topic\topic_detail.html:45
 msgid "Undelete topic"
-msgstr ""
+msgstr "Restaurar tema"
 
 #: .\templates\spirit\topic\topic_detail.html:47
 msgid "Delete topic"
-msgstr ""
+msgstr "Eliminar tema"
 
 #: .\templates\spirit\topic\topic_detail.html:51
 msgid "Open topic"
-msgstr ""
+msgstr "Abrir tema"
 
 #: .\templates\spirit\topic\topic_detail.html:53
 msgid "Close topic"
-msgstr ""
+msgstr "Cerrar tema"
 
 #: .\templates\spirit\topic\topic_detail.html:57
 msgid "Unpin topic"
-msgstr ""
+msgstr "Desanclar tema"
 
 #: .\templates\spirit\topic\topic_detail.html:59
 msgid "Pin topic"
-msgstr ""
+msgstr "Anclar tema"
 
 #: .\templates\spirit\topic\topic_detail.html:68
 msgid "Topic id"
-msgstr ""
+msgstr "ID de tema"
 
 #: .\templates\spirit\topic\topic_detail.html:70
 msgid "Move"
-msgstr ""
-
-#: .\templates\spirit\topic\topic_detail.html:89
-msgid "Reply"
-msgstr ""
+msgstr "Mover"
 
 #: .\templates\spirit\topic\topic_moderate.html:5
 #: .\templates\spirit\topic\topic_moderate.html:9
 msgid "Moderate topic"
-msgstr ""
+msgstr "Moderar tema"
 
 #: .\templates\spirit\topic\topic_publish.html:5
 #: .\templates\spirit\topic\topic_publish.html:21
 msgid "Publish topic"
-msgstr ""
+msgstr "Publicar tema"
 
 #: .\templates\spirit\topic\topic_update.html:5
 #: .\templates\spirit\topic\topic_update.html:9
 msgid "Update topic"
-msgstr ""
+msgstr "Actualizar tema"
 
 #: .\templates\spirit\topic\topic_update.html:15
 msgid "Update"
-msgstr ""
+msgstr "Actualizar"
 
 #: .\templates\spirit\topic\topics_active.html:5
 msgid "Latest active topics"
-msgstr ""
+msgstr "Temas ultima vez activos"
 
 #: .\templates\spirit\topic_notification\_form.html:12
 msgid "Unnotify Me"
-msgstr ""
+msgstr "Cancelar suscripción"
 
 #: .\templates\spirit\topic_notification\_form.html:14
 msgid "Notify Me"
-msgstr ""
+msgstr "Suscribirme"
 
 #: .\templates\spirit\topic_notification\_render_list.html:9
-#, python-format
 msgid ""
 "<a href=\"%(url_profile)s\">%(username)s</a> has commented on <a href=\"%"
 "(url_topic)s\">%(topic_title)s</a>"
 msgstr ""
+"<a href=\"%(url_profile)s\">%(username)s</a> ha comentado en <a href=\"%"
+"(url_topic)s\">%(topic_title)s</a>"
 
 #: .\templates\spirit\topic_notification\_render_list.html:11
-#, python-format
 msgid ""
 "<a href=\"%(url_profile)s\">%(username)s</a> has mention you on <a href=\"%"
 "(url_topic)s\">%(topic_title)s</a>"
 msgstr ""
+"<a href=\"%(url_profile)s\">%(username)s</a> te ha mencionado en <a href=\"%"
+"(url_topic)s\">%(topic_title)s</a>"
+
+#: .\templates\spirit\topic_notification\_render_list.html:17
+msgid "unread"
+msgstr "sin leer"
 
 #: .\templates\spirit\topic_notification\_render_list.html:21
 msgid "There are no notifications, yet"
-msgstr ""
+msgstr "Aun no hay notificaciones"
 
 #: .\templates\spirit\topic_notification\list.html:5
 #: .\templates\spirit\topic_notification\list.html:9
 msgid "Notifications"
-msgstr ""
+msgstr "Notificaciones"
 
 #: .\templates\spirit\topic_notification\list_unread.html:5
 #: .\templates\spirit\topic_notification\list_unread.html:9
 msgid "Unread notifications"
-msgstr ""
+msgstr "Notificaciones sin leer"
 
 #: .\templates\spirit\topic_notification\list_unread.html:15
 msgid "There are no new notifications"
-msgstr ""
+msgstr "No hay notificaciones nuevas"
 
 #: .\templates\spirit\topic_notification\list_unread.html:22
 #: .\templates\spirit\topic_unread\list.html:15
 msgid "Next"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\_form.html:10
-msgid "Vote"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\_form.html:14
-msgid "open"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\poll_close.html:5
-msgid "Poll close or open"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\poll_close.html:11
-msgid "Are you sure you want to open this poll"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\poll_close.html:13
-msgid "Are you sure you want to close this poll"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\poll_close.html:20
-msgid "Close"
-msgstr ""
-
-#: .\templates\spirit\topic_poll\poll_update.html:5
-#: .\templates\spirit\topic_poll\poll_update.html:9
-msgid "Update poll"
-msgstr ""
+msgstr "Proximo"
 
 #: .\templates\spirit\topic_private\_private_invite_form.html:7
 msgid "Invite"
-msgstr ""
+msgstr "Invitar usuario"
 
 #: .\templates\spirit\topic_private\_top_bar.html:6
 #: .\templates\spirit\topic_private\_top_bar.html:14
-msgid "Participating in"
-msgstr ""
+msgid "Participating"
+msgstr "Participando"
 
 #: .\templates\spirit\topic_private\_top_bar.html:8
 #: .\templates\spirit\topic_private\_top_bar.html:13
 msgid "Left"
-msgstr ""
+msgstr "Abandonados"
 
 #: .\templates\spirit\topic_private\_top_bar.html:20
 msgid "Create private topic"
-msgstr ""
+msgstr "Crear tema privado"
 
 #: .\templates\spirit\topic_private\private_created_list.html:5
 msgid "Created private topics"
-msgstr ""
+msgstr "Temas privados creados"
 
 #: .\templates\spirit\topic_private\private_created_list.html:17
 msgid "join"
-msgstr ""
+msgstr "Unirme"
 
 #: .\templates\spirit\topic_private\private_delete.html:5
 msgid "Remove user from private topic"
-msgstr ""
+msgstr "Remover usuario de tema privado"
 
 #: .\templates\spirit\topic_private\private_delete.html:9
-#, python-format
 msgid "Removing %(username)s's from %(topic_title)s"
-msgstr ""
+msgstr "Removiendo %(username)s de %(topic_title)s"
 
 #: .\templates\spirit\topic_private\private_delete.html:13
 msgid "Remove"
-msgstr ""
+msgstr "eliminar"
 
 #: .\templates\spirit\topic_private\private_detail.html:20
 msgid "Participants"
-msgstr ""
+msgstr "Participantes"
 
 #: .\templates\spirit\topic_private\private_detail.html:36
 msgid "Leave topic"
-msgstr ""
+msgstr "Salir del tema"
 
 #: .\templates\spirit\topic_private\private_join.html:5
 msgid "Join topic"
-msgstr ""
+msgstr "Unirme al tema"
 
 #: .\templates\spirit\topic_private\private_join.html:10
-#, python-format
 msgid "Do you want to join %(topic_title)s?"
-msgstr ""
+msgstr "¿Te quieres unir a %(topic_title)s?"
 
 #: .\templates\spirit\topic_private\private_join.html:18
 msgid "Join"
-msgstr ""
+msgstr "Unirme"
 
 #: .\templates\spirit\topic_private\private_publish.html:5
 msgid "Publish a private topic"
-msgstr ""
+msgstr "Publicar un tema privado"
 
 #: .\templates\spirit\topic_private\private_publish.html:9
 msgid "Publish private topic"
-msgstr ""
+msgstr "Publicar tema privado"
 
 #: .\templates\spirit\topic_unread\list.html:5
 #: .\templates\spirit\topic_unread\list.html:9
 msgid "Unread topics replies"
-msgstr ""
+msgstr "Respuestas de temas sin leer"
 
 #: .\templates\spirit\user\_profile.html:12
 msgid "Joined at"
-msgstr ""
+msgstr "Se unio en"
 
 #: .\templates\spirit\user\_profile.html:16
 msgid "Seen"
-msgstr ""
+msgstr "Visto"
 
-#: .\templates\spirit\user\_profile.html:22
-msgid "Last IP"
-msgstr ""
-
-#: .\templates\spirit\user\_profile.html:31
+#: .\templates\spirit\user\_profile.html:24
 #: .\templates\spirit\user\profile_update.html:5
 #: .\templates\spirit\user\profile_update.html:9
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencias"
 
-#: .\templates\spirit\user\_profile.html:35
+#: .\templates\spirit\user\_profile.html:28
 msgid "Private Message"
-msgstr ""
+msgstr "Mensaje Privado"
 
-#: .\templates\spirit\user\_render_comments_list.html:29
+#: .\templates\spirit\user\_render_comments_list.html:28
 msgid "There are no comments here, yet"
-msgstr ""
+msgstr "Aun no hay comentarios aqui"
 
 #: .\templates\spirit\user\activation_email.html:2
-#, python-format
 msgid "You're receiving this email because you registered at %(site_name)s."
-msgstr ""
+msgstr "Recibes este email porque te registraste en %(site_name)s."
 
 #: .\templates\spirit\user\activation_email.html:4
 msgid "Please go to the following link to activate your account:"
-msgstr ""
+msgstr "Ve al siguiente enlace para activar tu cuenta:"
 
 #: .\templates\spirit\user\activation_email.html:8
 #: .\templates\spirit\user\email_change_email.html:8
 #: .\templates\spirit\user\password_reset_email.html:9
 msgid "Thanks for using our site!"
-msgstr ""
-
-#: .\templates\spirit\user\activation_resend.html:5
-#: .\templates\spirit\user\activation_resend.html:9
-#: .\templates\spirit\user\login.html:23
-msgid "Resend activation email"
-msgstr ""
-
-#: .\templates\spirit\user\activation_resend.html:16
-msgid "Resend email"
-msgstr ""
+msgstr "Gracias por usar nuestro sitio!"
 
 #: .\templates\spirit\user\email_change_email.html:2
-#, python-format
 msgid ""
 "You're receiving this because you changed your user email at %(site_name)s."
 msgstr ""
+"Recibes este email porque cambiaste tu email en %(site_name)s."
 
 #: .\templates\spirit\user\email_change_email.html:4
 msgid "Please go to the following link to confirm your email change:"
-msgstr ""
+msgstr "Ve al siguiente enlace para confirmar tu cambio de email:"
 
 #: .\templates\spirit\user\login.html:5 .\templates\spirit\user\login.html:9
 #: .\templates\spirit\user\login.html:16
 msgid "Login"
-msgstr ""
+msgstr "Ingresar"
 
 #: .\templates\spirit\user\login.html:21
 msgid "Create an account"
-msgstr ""
+msgstr "Crear una cuenta"
 
 #: .\templates\spirit\user\login.html:22
 msgid "I don't know my password"
-msgstr ""
-
-#: .\templates\spirit\user\logout.html:9
-msgid "Are you sure you want to log out?"
-msgstr ""
+msgstr "Olvide mi contraseña"
 
 #: .\templates\spirit\user\menu.html:7
 msgid "User menu"
-msgstr ""
+msgstr "Menu de usuario"
 
 #: .\templates\spirit\user\menu.html:11
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: .\templates\spirit\user\notification_email.html:2
-#, python-format
 msgid "You have a new notification at %(site_name)s."
-msgstr ""
+msgstr "Tienes una nueva notificacion en %(site_name)s."
 
 #: .\templates\spirit\user\notification_email.html:4
 msgid "Please go to the following link to read the comment:"
-msgstr ""
+msgstr "Ve al siguiente enlace para leer el comentario:"
 
 #: .\templates\spirit\user\notification_email.html:8
 msgid ""
 "If you don't want to keep receiving notifications, you can deactivate them "
 "on your profile preferences."
 msgstr ""
+"Si ya no quieres seguir recibiendo notificaciones, puedes desactivarlas "
+"en las preferencias de tu cuenta."
 
 #: .\templates\spirit\user\password_reset_complete.html:7
 #: .\templates\spirit\user\password_reset_complete.html:11
 msgid "Password change successful"
-msgstr ""
+msgstr "Contraseña cambiada con exito"
 
 #: .\templates\spirit\user\password_reset_complete.html:13
 msgid "Continue to login"
-msgstr ""
+msgstr "Continuar al ingreso"
 
 #: .\templates\spirit\user\password_reset_confirm.html:5
 msgid "Password reset confirmation"
-msgstr ""
+msgstr "Confirmación de restablecimiento de contraseña"
 
 #: .\templates\spirit\user\password_reset_confirm.html:11
 msgid "Enter new password"
-msgstr ""
+msgstr "Ingresar nueva contraseña"
 
 #: .\templates\spirit\user\password_reset_confirm.html:21
 msgid "Password reset unsuccessful"
-msgstr ""
+msgstr "Reseteo de contraseña sin exito"
 
 #: .\templates\spirit\user\password_reset_confirm.html:23
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
+"El enlace para resetear la contraseña es invalido, posiblemente porque ya ha sido "
+"usado. Por favor, pide un nuevo reseteo de contraseña."
 
 #: .\templates\spirit\user\password_reset_done.html:5
 #: .\templates\spirit\user\password_reset_done.html:9
 msgid "Password reset successful"
-msgstr ""
+msgstr "Restablecimiento de contraseña exitoso"
 
 #: .\templates\spirit\user\password_reset_done.html:11
 msgid ""
 "We've emailed you instructions for setting your password. You should be "
 "receiving them shortly."
 msgstr ""
+"Te hemos enviado instrucciones, por email, para resetear tu contraseña. Deberias "
+"recibirlas en breve."
 
-#: .\templates\spirit\user\password_reset_done.html:12 .\views\user.py:107
+#: .\templates\spirit\user\password_reset_done.html:12
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 msgstr ""
+"Si no recibes un email, asegurate de haber ingresado la direccion de email "
+"con la cual te registraste, y busca en tu bandeja de spam."
 
 #: .\templates\spirit\user\password_reset_email.html:2
-#, python-format
 msgid ""
 "You're receiving this email because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
+"Recibes este email porque pediste un restablecimiento de contraseña para "
+"cuenta en %(site_name)s."
 
 #: .\templates\spirit\user\password_reset_email.html:4
 msgid "Please go to the following page and choose a new password:"
-msgstr ""
+msgstr "Ve al siguiente enlace y elige una nueva contraseña:"
 
 #: .\templates\spirit\user\password_reset_email.html:11
-#, python-format
 msgid "The %(site_name)s team"
-msgstr ""
+msgstr "El equipo de %(site_name)s"
 
 #: .\templates\spirit\user\password_reset_form.html:5
 #: .\templates\spirit\user\password_reset_form.html:9
 msgid "Password reset"
-msgstr ""
+msgstr "Restablecimiento de contraseña"
 
 #: .\templates\spirit\user\password_reset_form.html:15
 msgid "Reset my password"
-msgstr ""
+msgstr "Restablecer contraseña"
 
 #: .\templates\spirit\user\password_reset_subject.txt:2
-#, python-format
 msgid "Password reset on %(site_name)s"
-msgstr ""
+msgstr "Restablecimiento de contraseña en %(site_name)s"
 
 #: .\templates\spirit\user\profile_email_change.html:5
 #: .\templates\spirit\user\profile_email_change.html:9
-#: .\tests\tests_user.py:450 .\tests\tests_utils.py:561
-#: .\utils\user\email.py:48
+#: .\tests\tests_user.py:448 .\utils\user\email.py:48
 msgid "Email change"
-msgstr ""
+msgstr "Cambiar email"
 
 #: .\templates\spirit\user\profile_email_change.html:15
 msgid "Change my email"
-msgstr ""
+msgstr "Cambiar mi email"
 
 #: .\templates\spirit\user\profile_password_change.html:5
 #: .\templates\spirit\user\profile_password_change.html:9
 msgid "Password change"
-msgstr ""
+msgstr "Cambiar contraseña"
 
 #: .\templates\spirit\user\profile_password_change.html:15
 msgid "Change my password"
-msgstr ""
+msgstr "Cambiar mi contraseña"
 
 #: .\templates\spirit\user\profile_update.html:16
 msgid "Change password"
-msgstr ""
+msgstr "Cambiar contraseña"
 
 #: .\templates\spirit\user\profile_update.html:18
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: .\templates\spirit\user\profile_update.html:19
 msgid "Change avatar"
-msgstr ""
-
-#: .\templates\spirit\user\profile_update.html:20
-msgid "Go to gravatar.com and use your current email to change it"
-msgstr ""
+msgstr "Cambiar avatar"
 
 #: .\templates\spirit\user\register.html:5
-#: .\templates\spirit\user\register.html:22
-#: .\templates\spirit\user\register.html:28
+#: .\templates\spirit\user\register.html:9
+#: .\templates\spirit\user\register.html:15
 msgid "Register"
-msgstr ""
+msgstr "Registrar"
 
-#: .\templatetags\tags\comment.py:25
+#: .\templatetags\tags\comment.py:24
 msgid "This topic has been moved"
-msgstr ""
+msgstr "Este tema ha sido movido"
 
-#: .\templatetags\tags\comment.py:27
+#: .\templatetags\tags\comment.py:26
 msgid "This topic has been closed"
-msgstr ""
+msgstr "Este tema ha sido cerrado"
 
-#: .\templatetags\tags\comment.py:29
+#: .\templatetags\tags\comment.py:28
 msgid "This topic has been unclosed"
-msgstr ""
+msgstr "Este tema ha sido abierto"
 
-#: .\templatetags\tags\comment.py:31
+#: .\templatetags\tags\comment.py:30
 msgid "This topic has been pinned"
-msgstr ""
+msgstr "Este tema ha sido anclado"
 
-#: .\templatetags\tags\comment.py:33
+#: .\templatetags\tags\comment.py:32
 msgid "This topic has been unpinned"
-msgstr ""
+msgstr "Este tema ha sido desanclado"
 
-#: .\templatetags\tags\comment.py:35
+#: .\templatetags\tags\comment.py:34
 msgid "Unknown topic moderation action"
-msgstr ""
+msgstr "Acción de tema desconocida"
 
-#: .\templatetags\tags\utils\time.py:32
+#: .\templatetags\tags\utils.py:41
 msgid "now"
-msgstr ""
+msgstr "ahora"
 
-#: .\templatetags\tags\utils\time.py:36
-#, python-format
+#: .\templatetags\tags\utils.py:45
 msgid "%(count)ss"
-msgstr ""
+msgstr "%(count)ss"
 
-#: .\templatetags\tags\utils\time.py:40
-#, python-format
+#: .\templatetags\tags\utils.py:49
 msgid "%(count)sm"
-msgstr ""
+msgstr "%(count)sm"
 
-#: .\templatetags\tags\utils\time.py:43
-#, python-format
+#: .\templatetags\tags\utils.py:52
 msgid "%(count)sh"
-msgstr ""
+msgstr "%(count)sh"
 
-#: .\tests\tests_user.py:95 .\tests\tests_user.py:469
-#: .\tests\tests_utils.py:525 .\utils\user\email.py:40
+#: .\tests\tests_user.py:95 .\utils\user\email.py:40
 msgid "User activation"
-msgstr ""
+msgstr "Activación de usuario"
 
 #: .\utils\timezone.py:7
 msgid "(GMT -12:00) Eniwetok, Kwajalein"
@@ -1471,175 +1298,149 @@ msgid "(GMT -10:00) Hawaii"
 msgstr ""
 
 #: .\utils\timezone.py:10
-msgid "(GMT -9:30) Marquesas Islands"
-msgstr ""
-
-#: .\utils\timezone.py:11
 msgid "(GMT -9:00) Alaska"
 msgstr ""
 
-#: .\utils\timezone.py:12
+#: .\utils\timezone.py:11
 msgid "(GMT -8:00) Pacific Time (US & Canada)"
 msgstr ""
 
-#: .\utils\timezone.py:13
+#: .\utils\timezone.py:12
 msgid "(GMT -7:00) Mountain Time (US & Canada)"
 msgstr ""
 
-#: .\utils\timezone.py:14
+#: .\utils\timezone.py:13
 msgid "(GMT -6:00) Central Time (US & Canada), Mexico City"
 msgstr ""
 
-#: .\utils\timezone.py:15
+#: .\utils\timezone.py:14
 msgid "(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima"
 msgstr ""
 
-#: .\utils\timezone.py:16
-msgid "(GMT -4:30) Venezuela"
-msgstr ""
-
-#: .\utils\timezone.py:17
+#: .\utils\timezone.py:15
 msgid "(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz"
 msgstr ""
 
-#: .\utils\timezone.py:18
+#: .\utils\timezone.py:16
 msgid "(GMT -3:00) Brazil, Buenos Aires, Georgetown"
 msgstr ""
 
-#: .\utils\timezone.py:19
+#: .\utils\timezone.py:17
 msgid "(GMT -2:00) Mid-Atlantic"
 msgstr ""
 
-#: .\utils\timezone.py:20
+#: .\utils\timezone.py:18
 msgid "(GMT -1:00) Azores, Cape Verde Islands"
 msgstr ""
 
-#: .\utils\timezone.py:21
+#: .\utils\timezone.py:19
 msgid "(GMT) Western Europe Time, London, Lisbon, Casablanca"
 msgstr ""
 
-#: .\utils\timezone.py:22
+#: .\utils\timezone.py:20
 msgid "(GMT +1:00) Brussels, Copenhagen, Madrid, Paris"
 msgstr ""
 
-#: .\utils\timezone.py:23
+#: .\utils\timezone.py:21
 msgid "(GMT +2:00) Kaliningrad, South Africa"
 msgstr ""
 
-#: .\utils\timezone.py:24
+#: .\utils\timezone.py:22
 msgid "(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg"
 msgstr ""
 
-#: .\utils\timezone.py:25
+#: .\utils\timezone.py:23
 msgid "(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi"
 msgstr ""
 
-#: .\utils\timezone.py:26
-msgid "(GMT +4:30) Afghanistan"
-msgstr ""
-
-#: .\utils\timezone.py:27
+#: .\utils\timezone.py:24
 msgid "(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent"
 msgstr ""
 
-#: .\utils\timezone.py:28
-msgid "(GMT +5:30) India, Sri Lanka"
-msgstr ""
-
-#: .\utils\timezone.py:29
-msgid "(GMT +5:45) Nepal"
-msgstr ""
-
-#: .\utils\timezone.py:30
+#: .\utils\timezone.py:25
 msgid "(GMT +6:00) Almaty, Dhaka, Colombo"
 msgstr ""
 
-#: .\utils\timezone.py:31
-msgid "(GMT +6:30) Cocos Islands, Myanmar"
-msgstr ""
-
-#: .\utils\timezone.py:32
+#: .\utils\timezone.py:26
 msgid "(GMT +7:00) Bangkok, Hanoi, Jakarta"
 msgstr ""
 
-#: .\utils\timezone.py:33
+#: .\utils\timezone.py:27
 msgid "(GMT +8:00) Beijing, Perth, Singapore, Hong Kong"
 msgstr ""
 
-#: .\utils\timezone.py:34
-msgid "(GMT +8:45) Australia (Eucla)"
-msgstr ""
-
-#: .\utils\timezone.py:35
+#: .\utils\timezone.py:28
 msgid "(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
 msgstr ""
 
-#: .\utils\timezone.py:36
-msgid "(GMT +9:30) Australia (Northern Territory)"
-msgstr ""
-
-#: .\utils\timezone.py:37
+#: .\utils\timezone.py:29
 msgid "(GMT +10:00) Eastern Australia, Guam, Vladivostok"
 msgstr ""
 
-#: .\utils\timezone.py:38
+#: .\utils\timezone.py:30
 msgid "(GMT +11:00) Magadan, Solomon Islands, New Caledonia"
 msgstr ""
 
-#: .\utils\timezone.py:39
-msgid "(GMT +11:30) Norfolk Island"
-msgstr ""
-
-#: .\utils\timezone.py:40
+#: .\utils\timezone.py:31
 msgid "(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka"
 msgstr ""
 
 #: .\utils\ratelimit\decorators.py:22
-#, python-format
 msgid "Too many submissions, wait %(time)s."
-msgstr ""
+msgstr "Demasiados envios, espera %(time)s."
 
 #: .\utils\user\email.py:57
-#, python-format
 msgid "New notification: %(topic_name)s"
-msgstr ""
+msgstr "Nueva notificación: %(topic_name)s"
 
-#: .\views\user.py:69
+#: .\views\user.py:58
 msgid "We have sent you an email so you can activate your account!"
-msgstr ""
+msgstr "Te hemos enviado un email para que puedas activar tu cuenta!"
 
-#: .\views\user.py:90
+#: .\views\user.py:79
 msgid "Your account has been activated!"
-msgstr ""
+msgstr "Tu cuenta ha sido activada!"
 
-#: .\views\user.py:123
+#: .\views\user.py:91
 msgid "Your profile has been updated!"
-msgstr ""
+msgstr "Tu perfil ha sido actualizado!"
 
-#: .\views\user.py:138
+#: .\views\user.py:106
 msgid "Your password has been changed!"
-msgstr ""
+msgstr "Tu contraseña ha sido cambiada!"
 
-#: .\views\user.py:153
+#: .\views\user.py:121
 msgid "We have sent you an email so you can confirm the change!"
-msgstr ""
+msgstr "Te hemos enviado un email para que puedas confirmar el cambio!"
 
-#: .\views\user.py:169
+#: .\views\user.py:137
 msgid "Your email has been changed!"
-msgstr ""
+msgstr "Tu email ha sido cambiado!"
 
 #: .\views\admin\category.py:47
 msgid "The category has been updated!"
-msgstr ""
+msgstr "La categoria ha sido actualizada!"
 
 #: .\views\admin\comment_flag.py:35
 msgid "The flag has been moderated!"
-msgstr ""
+msgstr "El reporte ha sido moderado!"
 
 #: .\views\admin\config.py:20
 msgid "Settings updated!"
-msgstr ""
+msgstr "Configuración actualizada!"
 
 #: .\views\admin\user.py:25
 msgid "This profile has been updated!"
-msgstr ""
+msgstr "El perfil ha sido actualizado!"
+
+#~ msgid "permissions"
+#~ msgstr "permisos"
+
+#~ msgid "Muted"
+#~ msgstr "Silenciado"
+
+#~ msgid "Nothing to show"
+#~ msgstr "Nada para mostrar"
+
+#~ msgid "No results found"
+#~ msgstr "No hay resultados"

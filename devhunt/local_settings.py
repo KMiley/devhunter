@@ -15,7 +15,7 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1', ]
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-
+SECRET_KEY = 'lol'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
