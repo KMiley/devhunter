@@ -20,8 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'e5j$rr2vm*mka83=n!cd)beemkloy)+_3$54^(8bfj6n0wsz2k'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -57,16 +55,6 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-gettext_noop = lambda s: s
-
-LANGUAGES = (
-('de', gettext_noop('German')),
-('en', gettext_noop('English')),
-('es', gettext_noop('Spanish')),
-('sv', gettext_noop('Swedish')),
-)
-# Default language
-LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'America/Bogota'
 
@@ -85,13 +73,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-STATICFILES_DIRS = (
-
-    os.path.join(BASE_DIR, 'static'),
-)
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 # A sample logging configuration. The only tangible logging
@@ -124,9 +106,7 @@ LOGGING = {
 }
 
 try:
-    # devs must create this file to override settings
-    # local_settings_sample.py is provided
-    from .local_settings import *
+    from .local_settings_prod import *
 except ImportError:
     pass
 

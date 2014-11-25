@@ -1,0 +1,5 @@
+*.pyc
+*.pyo
+/devhunt/local_settings_prod.py
+/env/
+/build/
